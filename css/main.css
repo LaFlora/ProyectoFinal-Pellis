@@ -1,1 +1,30 @@
-@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Updock&display=swap");
+@import url(animate.css);
+.navbar {
+  background-color: #f4e1f9;
+  font-family: "League Spartan", sans-serif; }
+
+.navbar-expand-lg .navbar-collapse {
+  display: flex;
+  flex-wrap: wrap; }
+
+.navbar div .nav-item .nav-link {
+  color: #f20587; }
+
+.dropdown-menu .dropdown-item {
+  color: #f20587; }
+
+.btn {
+  color: #f20587; }
+
+.justify-content-md-end {
+  padding-top: 2%;
+  padding-right: 2%; }
+
+.bg-pink {
+  background-color: #f4e1f9; }
+
+a {
+  color: #f20587;
+  text-decoration: none;
+  width: 10%; }

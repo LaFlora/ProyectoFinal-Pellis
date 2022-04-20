@@ -1,0 +1,36 @@
+@import url(animate.css);
+
+$link-color: #f20587;
+//nav
+.navbar {
+    background-color: #f4e1f9;
+    font-family: $Font-family; }
+    .navbar-expand-lg .navbar-collapse{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+      .navbar div .nav-item .nav-link {
+        color: #f20587;
+         }
+  
+  .dropdown-menu .dropdown-item {
+    color: #f20587; }
+  
+  .btn {
+    color: #f20587; }
+  
+  .justify-content-md-end {
+    padding-top: 2%;
+    padding-right: 2%; }
+
+//footer
+
+    .bg-pink{
+        background-color: #f4e1f9;}
+            a{
+                color: $link-color;
+                text-decoration: none;
+                width: 10%;
+            }
+        
