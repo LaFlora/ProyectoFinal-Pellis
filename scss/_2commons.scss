@@ -1,6 +1,21 @@
 @import url(animate.css);
 
 $link-color: #f20587;
+$titles-color: #d948b2;
+$violet: #d948b2;
+$light-pink: #f4e1f9;
+$grey: #0d0d0d;
+$light-grey: #f0f0f2;
+$color: #0d0d0d;
+$font-size: 10%;
+
+//mixin
+@mixin sub-text ($font-size, $color){
+    font-size: $font-size;
+    color: $color;
+    padding: 2%;
+}
+
 //nav
 .navbar {
     background-color: #f4e1f9;
@@ -8,6 +23,7 @@ $link-color: #f20587;
     .navbar-expand-lg .navbar-collapse{
         display: flex;
         flex-wrap: wrap;
+        
     }
     
       .navbar div .nav-item .nav-link {
@@ -18,16 +34,43 @@ $link-color: #f20587;
     color: #f20587; }
   
   .btn {
-    color: #f20587; }
+    color: #f20587;
+    font-family: $Font-family; 
+    background-color: $grey;
+    border: none;
+    &:hover{
+      color: $light-pink;
+      cursor: pointer;
+    }
+  }
+  
+  .btn-sm{
+    @extend .btn;
+    width: 60px;
+  }
   
   .justify-content-md-end {
     padding-top: 2%;
     padding-right: 2%; }
 
+//formulario
+.input-group{
+    font-family: $Font-family;
+        .input-group-text{
+          color: $violet;
+        }
+}
+.text-violet{
+    color: $violet;
+    font-family: $Font-family;
+}
 //footer
 
     .bg-pink{
-        background-color: #f4e1f9;}
+        background-color: #f4e1f9;
+        font-family: $Font-family;
+        display: flex;
+        align-content: center;}
             a{
                 color: $link-color;
                 text-decoration: none;

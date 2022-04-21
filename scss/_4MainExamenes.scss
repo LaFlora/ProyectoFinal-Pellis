@@ -1,0 +1,9 @@
+.block-text{
+    font-family: $Font-family;
+    margin-top: 2%;
+        .sub-text{
+            @include sub-text (100%, $grey);
+            
+        }
+
+}
