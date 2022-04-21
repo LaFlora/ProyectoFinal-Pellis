@@ -3,11 +3,25 @@
 $link-color: #f20587;
 $titles-color: #d948b2;
 $violet: #d948b2;
+$fuchsa: #f20587;
 $light-pink: #f4e1f9;
 $grey: #0d0d0d;
 $light-grey: #f0f0f2;
+$aquamarine: #0cf2b1;
+$orange: #f27a05;
 $color: #0d0d0d;
 $font-size: 10%;
+
+//map
+$paleta: {
+  uno: #d948b2;
+  dos: #f20587;
+  tres: #f4e1f9;
+  cuatro: #0d0d0d;
+  cinco: #f0f0f2;
+  seis: #0cf2b1;
+  siete: #f27a05;
+}
 
 //mixin
 @mixin sub-text ($font-size, $color){
@@ -27,7 +41,7 @@ $font-size: 10%;
     }
     
       .navbar div .nav-item .nav-link {
-        color: #f20587;
+        color: map-get($map:$paleta,$key:'dos')
          }
   
   .dropdown-menu .dropdown-item {
