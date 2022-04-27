@@ -1,8 +1,6 @@
 .block-text{
     font-family: $Font-family;
     margin-top: 2%;
-    display: flex;
-    flex-direction: row;
         .sub-text{
             @include sub-text (100%, $grey);
 
