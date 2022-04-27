@@ -13,15 +13,15 @@ $color: #0d0d0d;
 $font-size: 10%;
 
 //map
-$paleta: {
-  uno: #d948b2;
-  dos: #f20587;
-  tres: #f4e1f9;
-  cuatro: #0d0d0d;
-  cinco: #f0f0f2;
-  seis: #0cf2b1;
-  siete: #f27a05;
-}
+$paleta: (
+  uno: #d948b2,
+  dos: #f20587,
+  tres: #f4e1f9,
+  cuatro: #0d0d0d,
+  cinco: #f0f0f2,
+  seis: #0cf2b1,
+  siete: #f27a05
+);
 
 //mixin
 @mixin sub-text ($font-size, $color){
@@ -34,18 +34,15 @@ $paleta: {
 .navbar {
     background-color: #f4e1f9;
     font-family: $Font-family; }
-    .navbar-expand-lg .navbar-collapse{
-        display: flex;
-        flex-wrap: wrap;
-        
-    }
     
       .navbar div .nav-item .nav-link {
         color: map-get($map:$paleta,$key:'dos')
          }
   
   .dropdown-menu .dropdown-item {
-    color: #f20587; }
+    color: #f20587;
+    
+  }
   
   .btn {
     color: #f20587;
@@ -84,10 +81,12 @@ $paleta: {
         background-color: #f4e1f9;
         font-family: $Font-family;
         display: flex;
-        align-content: center;}
+        flex-direction: row;
+        align-content: center;
             a{
                 color: $link-color;
                 text-decoration: none;
                 width: 10%;
             }
+      }      
         

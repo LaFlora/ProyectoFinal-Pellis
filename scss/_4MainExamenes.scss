@@ -1,9 +1,24 @@
 .block-text{
     font-family: $Font-family;
     margin-top: 2%;
+    display: flex;
+    flex-direction: row;
         .sub-text{
             @include sub-text (100%, $grey);
+
+            .card.mb-3{
+                display: flex;
+                flex-direction: row;
+            }
             
         }
 
+}
+.img-fluid.rounded-start{
+    width: auto;
+    display: flex;
+    align-content: center;
+}
+.card-body{
+    font-family: $Font-family;
 }
