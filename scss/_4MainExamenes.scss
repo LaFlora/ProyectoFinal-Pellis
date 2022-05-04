@@ -4,18 +4,20 @@
         .sub-text{
             @include sub-text (100%, $grey);
 
-            .card.mb-3{
+            .container.row{
                 display: flex;
                 flex-direction: row;
+                border-color: $fuchsa;
             }
             
         }
 
 }
-.img-fluid.rounded-start{
-    width: auto;
+.col-md-4{
+    width: 100%;
     display: flex;
     align-content: center;
+    outline: none;
 }
 .card-body{
     font-family: $Font-family;
