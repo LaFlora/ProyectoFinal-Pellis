@@ -38,20 +38,16 @@
 .container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; }
+  justify-content: space-between; }
   .container .bg-pink {
     background-color: #f4e1f9;
     font-family: "League Spartan", sans-serif;
     display: flex;
-    flex-direction: row;
-    align-content: center; }
+    flex-direction: row; }
     .container .bg-pink a {
       color: #f20587;
       text-decoration: none;
       width: 10%; }
-  .container .py-4 {
-    display: flex;
-    padding-left: 1.5em; }
 
 .container.px-4 {
   font-family: "League Spartan", sans-serif;
@@ -78,11 +74,16 @@
       flex-direction: row;
       border-color: #f20587; }
 
+.container.row {
+  margin-left: 8%; }
+
 .col-md-4 {
-  width: 100%;
+  width: 33%;
+  height: auto;
   display: flex;
-  align-content: center;
-  outline: none; }
+  align-content: center; }
+  .col-md-4 .img-fluid {
+    width: auto; }
 
 .card-body {
   font-family: "League Spartan", sans-serif; }

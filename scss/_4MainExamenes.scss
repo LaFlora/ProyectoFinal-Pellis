@@ -13,8 +13,12 @@
         }
 
 }
+.container.row{
+    margin-left: 8%;
+}
 .col-md-4{
-    width: 100%;
+    width: 33%;
+    height: auto;
     display: flex;
     align-content: center;
     .img-fluid{
