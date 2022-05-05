@@ -17,7 +17,9 @@
     width: 100%;
     display: flex;
     align-content: center;
-    outline: none;
+    .img-fluid{
+        width: auto;
+    }
 }
 .card-body{
     font-family: $Font-family;
