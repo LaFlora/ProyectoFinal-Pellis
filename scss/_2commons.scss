@@ -76,19 +76,16 @@ $paleta: (
     font-family: $Font-family;
 }
 //footer
-  .container{
+.footer{
+  .bg-pink{
+    background-color: $light-pink;
+    font-family: $Font-family;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-        .bg-pink{
-        background-color: $light-pink;
-        font-family: $Font-family;
-        display: flex;
-        flex-direction: row;
-            a{
-                color: $link-color;
-                text-decoration: none;
-                width: 10%;
-            }
-      }     
+    padding-left: 40%;
+    a{
+      color: $link-color;
+      text-decoration: none;
+      width: 10%;
     }
+  }
+}

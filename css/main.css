@@ -35,19 +35,15 @@
   color: #d948b2;
   font-family: "League Spartan", sans-serif; }
 
-.container {
+.footer .bg-pink {
+  background-color: #f4e1f9;
+  font-family: "League Spartan", sans-serif;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between; }
-  .container .bg-pink {
-    background-color: #f4e1f9;
-    font-family: "League Spartan", sans-serif;
-    display: flex;
-    flex-direction: row; }
-    .container .bg-pink a {
-      color: #f20587;
-      text-decoration: none;
-      width: 10%; }
+  padding-left: 40%; }
+  .footer .bg-pink a {
+    color: #f20587;
+    text-decoration: none;
+    width: 10%; }
 
 .container.px-4 {
   font-family: "League Spartan", sans-serif;
@@ -102,3 +98,26 @@
 
 .block-text {
   font-family: "League Spartan", sans-serif; }
+
+.body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  height: 100%; }
+  .body .container {
+    display: flex;
+    flex-direction: column;
+    gap: 20%;
+    align-items: center;
+    justify-content: center; }
+    .body .container img {
+      width: 50%; }
+    .body .container h1 {
+      color: #f20587;
+      font-size: 20%; }
+    .body .container button {
+      padding: 5% 5%;
+      border-radius: 15%;
+      border: none;
+      background-color: #f20587;
+      color: #f4e1f9; }
